@@ -1,0 +1,39 @@
+﻿<Window x:Class="Wpf_clientdatabase.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_clientdatabase"
+        mc:Ignorable="d"
+        Title="電發紀錄" Height="395.086" Width="906.474" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Margin="-2,0,-0.4,-1.2" Stroke="Black" Fill="#FFBBFAC7"/>
+
+        <Label Content="客戶名稱:" HorizontalAlignment="Left" Margin="13,78,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="tb_p" HorizontalAlignment="Left" Height="142" Margin="18,160,0,0" AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="16"/>
+        <Button x:Name="b_edit2" Content="編輯儲存" HorizontalAlignment="Left" Margin="18,313,0,0" VerticalAlignment="Top" Width="80" Height="40" FontSize="18" FontWeight="Bold" Click="b_edit2_Click" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                    <GradientStop Color="#FF37B3E6"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="內容:" HorizontalAlignment="Left" Margin="15,118,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <DataGrid x:Name="dg_pd" HorizontalAlignment="Left" Height="269" Margin="355,53,0,0" VerticalAlignment="Top" Width="530" FontSize="16" SelectionChanged="dg_pd_SelectionChanged"/>
+        <Label Content="公司名稱:" HorizontalAlignment="Left" Margin="13,38,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="tb_company" HorizontalAlignment="Left" Height="23" Margin="98,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="tb_name" HorizontalAlignment="Left" Height="23" Margin="97,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" FontSize="16" IsEnabled="False"/>
+        <Button x:Name="b_2" Content="新增確認" HorizontalAlignment="Left" Margin="131,314,0,0" VerticalAlignment="Top" Width="89" Height="40" FontSize="18" FontWeight="Bold" Click="b_2_Click" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                    <GradientStop Color="#FF37B3E6"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lb_1" Content="查無資料!" HorizontalAlignment="Left" Margin="570,163,0,0" VerticalAlignment="Top" FontSize="20" Visibility="Hidden"/>
+        <DataGrid x:Name="dg_pp" HorizontalAlignment="Left" Height="100" Margin="267,97,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

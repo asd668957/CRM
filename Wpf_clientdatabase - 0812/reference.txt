@@ -1,0 +1,26 @@
+Access連接字串
+https://www.itread01.com/content/1545329544.html
+
+DataGrid取得Access資料
+https://www.youtube.com/watch?v=RRdhgzQlC7w
+
+DataGrid取得單元格值
+https://blog.csdn.net/weixin_42974146/article/details/90647379
+
+SQL模糊查詢
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/41891/
+
+日期查詢
+https://www.fooish.com/sql/date.html
+
+wpf控件隨視窗改變大小
+https://www.cnblogs.com/yunfeifei/p/4430474.html
+
+DataGrid輸出Excel
+http://www.yazilimkodlama.com/programlama/wpf-datagrid-icindeki-verileri-excele-aktarma/
+
+wpf icon更改
+http://codingjames.blogspot.com/2009/11/wpficon.html
+
+label文字對齊
+https://yanchi-huang.blogspot.com/2011/09/wpf-c-sharp-label-contentalignment.html?m=0

@@ -1,0 +1,143 @@
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csprojAssemblyReference.cache
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\source\repos\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Window1.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Window1.baml
+C:\Users\009\Desktop\Wpf_clientdatabase\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csprojAssemblyReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Window1.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Window1.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Window3.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Window3.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csprojAssemblyReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Window1.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Window3.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Window1.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Window3.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - v2\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csprojAssemblyReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Window1.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Window3.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Window1.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Window3.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - v2 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window1.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window3.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window1.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window3.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window4.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window4.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.ResolveComReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window5.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Window5.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csprojAssemblyReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe.config
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\bin\Debug\Wpf_clientdatabase.pdb
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csprojAssemblyReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.ResolveComReference.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\MainWindow.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window1.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window2.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window3.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window4.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window5.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\App.g.cs
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase_MarkupCompile.lref
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\MainWindow.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window1.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window2.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window3.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window4.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Window5.baml
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.g.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.Properties.Resources.resources
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.csproj.GenerateResource.cache
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.exe
+C:\Users\009\Desktop\Wpf_clientdatabase - 0730 - 複製\Wpf_clientdatabase\obj\Debug\Wpf_clientdatabase.pdb

@@ -1,0 +1,322 @@
+﻿<Window x:Class="Wpf_clientdatabase.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_clientdatabase"
+        mc:Ignorable="d"
+        Title="客戶資料維護系統" Height="628" Width="1335.8" WindowStartupLocation="CenterScreen" WindowState="Maximized"  >
+    <Viewbox Stretch="Fill">
+        <Grid Margin="0,0,-5,17.6" Width="1332" Height="571" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="111*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="274*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="19*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="歡迎~" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="65"/>
+            <Label x:Name="lb_user" Content="" HorizontalAlignment="Left" Margin="88,10,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="109"/>
+            <TextBox x:Name="tb_ip" HorizontalAlignment="Left" Height="23" Margin="342,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" FontSize="18" TextChanged="tb_ip_TextChanged" Text="192.168.1."/>
+            <Label Content="主機位址:" HorizontalAlignment="Left" Margin="251,17,0,0" VerticalAlignment="Top" FontSize="18" Height="33" Width="86"/>
+            <Button x:Name="b_connect" Content="連線" HorizontalAlignment="Left" Margin="577,10,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="18" FontWeight="Bold" Click="b_connect_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                        <GradientStop Color="#FF1ECFD9"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="b_search" Content="搜尋" HorizontalAlignment="Left" Margin="489,10,0,0" VerticalAlignment="Top" Width="75" Height="40" Click="b_search_Click" FontSize="18" FontWeight="Bold">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                        <GradientStop Color="#FF1ECFD9"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <TabControl HorizontalAlignment="Left" Height="514" Margin="1,74,0,-17" VerticalAlignment="Top" Width="1323" Grid.ColumnSpan="2" Grid.RowSpan="3">
+                <TabItem Header="總覽" FontSize="16">
+                    <Grid Background="#FFE5E5E5" Margin="-2,-2,2,-9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="31*"/>
+                            <ColumnDefinition Width="174*"/>
+                            <ColumnDefinition Width="453*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid HorizontalAlignment="Left" Height="190" Margin="10,20,0,0" VerticalAlignment="Top" Width="477" Grid.ColumnSpan="3">
+                            <Grid.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF8DF797" Offset="0"/>
+                                    <GradientStop Color="#FFD8F7D4" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                            <TextBox x:Name="tb_phone" HorizontalAlignment="Left" Height="23" Margin="270,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" FontSize="16" TextChanged="tb_phone_TextChanged" />
+                            <Label Content="電話:" HorizontalAlignment="Left" Margin="215,120,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <Label Content="產業:" HorizontalAlignment="Left" Margin="16,118,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_adr" HorizontalAlignment="Left" Height="30" Margin="73,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="399" FontSize="18" TextChanged="tb_adr_TextChanged" />
+                            <Label Content="地址:" HorizontalAlignment="Left" Margin="16,80,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_area" HorizontalAlignment="Left" Height="23" Margin="270,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" FontSize="16" TextChanged="tb_area_TextChanged" />
+                            <TextBox x:Name="tb_company" HorizontalAlignment="Left" Height="23" Margin="270,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="16" TextChanged="tb_company_TextChanged" />
+                            <Label Content="公司:" HorizontalAlignment="Left" Margin="215,9,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <Label Content="區域:" HorizontalAlignment="Left" Margin="215,42,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <Label Content="代碼:" HorizontalAlignment="Left" Margin="15,9,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_n" HorizontalAlignment="Left" Height="23" Margin="73,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tb_n_TextChanged" IsEnabled="False"/>
+                            <Label Content="縣市:" HorizontalAlignment="Left" Margin="15,44,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_city" HorizontalAlignment="Left" Height="23" Margin="73,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tb_city_TextChanged"/>
+                            <TextBox x:Name="tb_ind" HorizontalAlignment="Left" Height="23" Margin="73,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tb_ind_TextChanged"/>
+                            <Button x:Name="b_check" Content="Check" HorizontalAlignment="Left" Margin="391,47,0,0" VerticalAlignment="Top" Width="75" Click="b_check_Click"/>
+                            <Label Content="交易條件:" HorizontalAlignment="Left" Margin="16
+                               ,153,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_trade" HorizontalAlignment="Left" Height="23" Margin="110,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tb_trade_TextChanged"/>
+                        </Grid>
+                        <Button x:Name="b_new" Content="新增確認" HorizontalAlignment="Right" Margin="0,375,187.4,0" VerticalAlignment="Top" Width="85" Height="40" Click="Button_Click" FontSize="18" FontWeight="Bold" Grid.Column="1">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="b_edit" Content="編輯儲存" HorizontalAlignment="Left" Margin="199,375,0,0" VerticalAlignment="Top" Width="84" Height="40" Click="b_edit_Click" FontSize="18" FontWeight="Bold" Grid.Column="1">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="b_refresh" Content="更新" HorizontalAlignment="Left" Margin="823,411,0,0" VerticalAlignment="Top" Width="75" Height="40" Click="b_refresh_Click" FontSize="18" FontWeight="Bold" Grid.Column="2">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <DataGrid x:Name="dg_1" HorizontalAlignment="Left" Margin="90,19,0,0" VerticalAlignment="Top" FontSize="16" SelectionChanged="dg_1_SelectionChanged" Grid.Column="2" Background="White" Height="361" Width="798"/>
+                        <TextBox x:Name="tb_tsearch" Grid.Column="2" HorizontalAlignment="Left" Height="29" Margin="607,423,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                        <Button x:Name="b_connect_Copy" Content="查詢" HorizontalAlignment="Left" Margin="742,411,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="2" Click="b_connect_Copy_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="*輸入公司或人員名稱" Grid.Column="2" HorizontalAlignment="Left" Margin="606,401,0,0" VerticalAlignment="Top" Height="22" FontSize="11"/>
+                        <Button x:Name="b_clear" Content="清除全部" HorizontalAlignment="Left" Margin="321,375,0,0" VerticalAlignment="Top" Width="102" Height="40" Click="b_clear_Click" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="2">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="聯繫人:" HorizontalAlignment="Left" Margin="207,10,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                        <Label Content="手機:" HorizontalAlignment="Left" Margin="208,44,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                        <Label Content="職稱:" HorizontalAlignment="Left" Margin="209,128,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                        <Grid HorizontalAlignment="Right" Height="149" Margin="0,215,828,0" VerticalAlignment="Top" Width="477" Grid.ColumnSpan="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF8DDEF7" Offset="0"/>
+                                    <GradientStop Color="#FFFAFAFA" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                            <Label Content="序號:" HorizontalAlignment="Left" Margin="16,9,0,0" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold" Height="35" VerticalAlignment="Top"/>
+                            <TextBox x:Name="tb_index" HorizontalAlignment="Left" Height="23" Margin="72,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" FontSize="16" TextChanged="tb_index_TextChanged" IsEnabled="False" />
+                            <TextBox x:Name="tb_name" HorizontalAlignment="Left" Height="23" Margin="272,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" TextChanged="tb_name_TextChanged" />
+                            <TextBox x:Name="tb_phone3" HorizontalAlignment="Left" Height="23" Margin="271,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" FontSize="16" TextChanged="tb_phone3_TextChanged" />
+                            <TextBox x:Name="tb_job" HorizontalAlignment="Left" Height="23" Margin="272,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" FontSize="16" TextChanged="tb_job_TextChanged" />
+                            <Label Content="部門:" HorizontalAlignment="Left" Margin="16
+                               ,107,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_dep" HorizontalAlignment="Left" Height="23" Margin="72
+                                 ,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" FontSize="16" TextChanged="tb_dep_TextChanged" />
+                            <Label Content="E-mail:" HorizontalAlignment="Left" Margin="16
+                               ,71,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_email" HorizontalAlignment="Left" Height="23" Margin="91,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" TextChanged="tb_email_TextChanged"/>
+                            <Label Content="分機:" HorizontalAlignment="Left" Margin="16
+                               ,41,0,0" VerticalAlignment="Top" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold"/>
+                            <TextBox x:Name="tb_phone2" HorizontalAlignment="Left" Height="23" Margin="72,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" FontSize="16" TextChanged="tb_phone2_TextChanged" />
+                            <Label Content="聯繫人:" HorizontalAlignment="Left" Margin="201,9,0,0" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold" Height="37" VerticalAlignment="Top"/>
+                            <Label Content="手機:" HorizontalAlignment="Left" Margin="201,41,0,0" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold" Height="40" VerticalAlignment="Top"/>
+                            <Label Content="職稱:" HorizontalAlignment="Left" Margin="201,107,0,0" Foreground="#FF0C0404" FontSize="18" FontWeight="Bold" Height="35" VerticalAlignment="Top"/>
+                            <Button x:Name="b_checkname" Content="C" HorizontalAlignment="Left" Margin="415,13,0,0" VerticalAlignment="Top" Width="49" Click="b_checkname_Click"/>
+                        </Grid>
+                        <DataGrid x:Name="dg_company" HorizontalAlignment="Left" Height="176" Margin="215.6,154,0,0" VerticalAlignment="Top" Width="432" Grid.Column="2" Visibility="Hidden"/>
+                        <Button x:Name="b_pd" Content="電發" HorizontalAlignment="Left" Margin="129,408,0,0" VerticalAlignment="Top" Width="84" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="2" Click="b_pd_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FFFD7913"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="b_visit1" Content="拜訪" HorizontalAlignment="Left" Margin="233,408,0,0" VerticalAlignment="Top" Width="84" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="2" Click="b_visit1_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FFFD7913"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="b_case" Content="案件" HorizontalAlignment="Left" Margin="339,408,0,0" VerticalAlignment="Top" Width="84" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="2" Click="b_case_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FFFD7913"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="b_price" Content="報價" HorizontalAlignment="Left" Margin="447,407,0,0" VerticalAlignment="Top" Width="84" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="2" Click="b_price_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FFFD7913"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="b_enable" Content="啟用編輯" HorizontalAlignment="Left" Margin="17,375,0,0" VerticalAlignment="Top" Width="85" Height="40" FontSize="18" FontWeight="Bold" Grid.ColumnSpan="2" Click="b_enable_Click" Foreground="Lime" Background="White"/>
+
+
+                    </Grid>
+                </TabItem>
+                <TabItem Header="電話開發紀錄" FontSize="16">
+                    <Grid Background="#FFE5E5E5" Margin="0,0,-1,-3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="118*"/>
+                            <ColumnDefinition Width="67*"/>
+                            <ColumnDefinition Width="1133*"/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="dg_2" HorizontalAlignment="Left" Height="358" Margin="130,49,0,0" VerticalAlignment="Top" Width="805" FontSize="16" SelectionChanged="dg_2_SelectionChanged" Grid.Column="2" IsSynchronizedWithCurrentItem="True" Background="White"/>
+                        <Button x:Name="b_search1" Content="查詢" HorizontalAlignment="Left" Margin="92,310,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="18" FontWeight="Bold" Click="b_search1_Click" Grid.ColumnSpan="2">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <DatePicker x:Name="dp_from2" HorizontalAlignment="Left" Margin="12,267,0,0" VerticalAlignment="Top" Width="106"/>
+                        <DatePicker x:Name="dp_to2" HorizontalAlignment="Left" Margin="18,267,0,0" VerticalAlignment="Top" Grid.Column="1" Width="119" Grid.ColumnSpan="2"/>
+                        <Label Content="建立日期起迄:" HorizontalAlignment="Left" Margin="18,224,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="119" FontWeight="Bold"/>
+                        <Label Content="公司:" HorizontalAlignment="Left" Margin="16,53,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold"/>
+                        <Label Content="聯繫人:" HorizontalAlignment="Left" Margin="16,95,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold"/>
+                        <Label Content="建立者:" HorizontalAlignment="Left" Margin="16,140,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold"/>
+                        <TextBox x:Name="tb_company2" HorizontalAlignment="Left" Height="23" Margin="86,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+                        <TextBox x:Name="tb_name2" HorizontalAlignment="Left" Height="23" Margin="86,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+                        <TextBox x:Name="tb_user" HorizontalAlignment="Left" Height="23" Margin="86,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+                        <Label Content="-電發記錄查詢-" HorizontalAlignment="Left" Margin="415,1,0,0" VerticalAlignment="Top" Width="154" FontSize="20" FontWeight="Bold" Grid.Column="2" Foreground="#FF212829"/>
+                        <Button x:Name="b_EPexcel" Content="輸出Excel" Grid.Column="2" HorizontalAlignment="Left" Margin="983,64,0,0" VerticalAlignment="Top" Width="97" Height="50" BorderBrush="#FF34DA87" Background="#FF98F090" Click="b_EPexcel_Click"/>
+                        <Label Content="搜尋結果:" Grid.Column="2" HorizontalAlignment="Left" Margin="670,415,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+                        <Label Content="共" Grid.Column="2" HorizontalAlignment="Left" Margin="769,415,0,0" VerticalAlignment="Top" FontSize="18"/>
+                        <Label Content="筆資料。" Grid.Column="2" HorizontalAlignment="Left" Margin="854,415,0,0" VerticalAlignment="Top" FontSize="18"/>
+                        <Label x:Name="lb_total" Content="0" HorizontalContentAlignment="Right"  Grid.Column="2" Margin="808,415,0,0" FontWeight="Bold" FontSize="18" Foreground="#FFDC2525" Width="45" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="拜訪記錄" FontSize="16">
+                    <Grid Background="#FFE5E5E5" Margin="0,0,-1,-3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="57*"/>
+                            <ColumnDefinition Width="57*"/>
+                            <ColumnDefinition Width="1204*"/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="dg_3" HorizontalAlignment="Left" Height="328" Margin="208,49,0,0" VerticalAlignment="Top" Width="754" FontSize="16" SelectionChanged="dg_3_SelectionChanged" Grid.Column="2"/>
+                        <Label Content="-拜訪記錄查詢-" HorizontalAlignment="Left" Margin="485.6,1,0,0" VerticalAlignment="Top" Width="154" FontSize="20" FontWeight="Bold" Grid.Column="2" Foreground="#FF212829"/>
+                        <Button x:Name="b_search2" Content="查詢" HorizontalAlignment="Left" Margin="34.8,310,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="2" Click="b_search2_Click_1">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <DatePicker x:Name="dp_from3" HorizontalAlignment="Left" Margin="12,267,0,0" VerticalAlignment="Top" Width="106" Grid.ColumnSpan="3"/>
+                        <DatePicker x:Name="dp_to3" HorizontalAlignment="Left" Margin="22,267,0,0" VerticalAlignment="Top" Grid.Column="2" Width="124"/>
+                        <Label Content="建立日期起迄:" HorizontalAlignment="Left" Margin="18,224,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="119" FontWeight="Bold"/>
+                        <Label Content="公司:" HorizontalAlignment="Left" Margin="16,53,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <Label Content="聯繫人:" HorizontalAlignment="Left" Margin="16,95,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <Label Content="建立者:" HorizontalAlignment="Left" Margin="16,140,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <TextBox x:Name="tb_company3" HorizontalAlignment="Left" Height="23" Margin="28.8,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="2"/>
+                        <TextBox x:Name="tb_name3" HorizontalAlignment="Left" Height="23" Margin="28.8,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="2"/>
+                        <TextBox x:Name="tb_user3" HorizontalAlignment="Left" Height="23" Margin="28.8,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="案件紀錄" FontSize="16" Margin="-2,0,0,0.4">
+                    <Grid Background="#FFE5E5E5" Margin="0,0,-1,-3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="62*"/>
+                            <ColumnDefinition Width="52*"/>
+                            <ColumnDefinition Width="41*"/>
+                            <ColumnDefinition Width="218*"/>
+                            <ColumnDefinition Width="945*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="b_search3" Content="查詢" HorizontalAlignment="Left" Margin="37,352,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="3" Click="b_search3_Click_1">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <DataGrid x:Name="dg_4" HorizontalAlignment="Left" Height="327" Margin="203.8,53,0,0" VerticalAlignment="Top" Width="742" FontSize="16" SelectionChanged="dg_3_SelectionChanged" Grid.Column="3" Grid.ColumnSpan="2"/>
+                        <DatePicker x:Name="dp_from" HorizontalAlignment="Left" Margin="23,310,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+                        <DatePicker x:Name="dp_to" HorizontalAlignment="Left" Margin="36,310,0,0" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="2" Width="113"/>
+                        <Label Content="建立日期起迄:" HorizontalAlignment="Left" Margin="22,262,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="119" FontWeight="Bold"/>
+                        <Label Content="公司:" HorizontalAlignment="Left" Margin="31,74,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <Label Content="聯繫人:" HorizontalAlignment="Left" Margin="31,116,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <Label Content="建立者:" HorizontalAlignment="Left" Margin="31,161,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <TextBox x:Name="tb_company4" HorizontalAlignment="Left" Height="23" Margin="39,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+                        <TextBox x:Name="tb_name4" HorizontalAlignment="Left" Height="23" Margin="39,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+                        <TextBox x:Name="tb_user4" HorizontalAlignment="Left" Height="23" Margin="39,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+                        <Label Content="-案件記錄查詢-" HorizontalAlignment="Left" Margin="226.6,1,0,0" VerticalAlignment="Top" Width="154" FontSize="20" FontWeight="Bold" Grid.Column="4" Foreground="#FF212829"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="報價紀錄" FontSize="16" Margin="-1,0,-5,0">
+                    <Grid Background="#FFE5E5E5" Margin="0,0,-1,-3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="62*"/>
+                            <ColumnDefinition Width="52*"/>
+                            <ColumnDefinition Width="41*"/>
+                            <ColumnDefinition Width="1162*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="b_search8" Content="查詢" HorizontalAlignment="Left" Margin="31,369,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="3" Click="b_search8_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                                    <GradientStop Color="#FF1ECFD9"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <DataGrid x:Name="dg_99" HorizontalAlignment="Left" Height="347" Margin="204,53,0,0" VerticalAlignment="Top" Width="763" FontSize="16" SelectionChanged="dg_3_SelectionChanged" Grid.Column="3"/>
+                        <DatePicker x:Name="dp_from6" HorizontalAlignment="Left" Margin="21,322,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+                        <DatePicker x:Name="dp_to6" HorizontalAlignment="Left" Margin="29,322,0,0" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="2" Width="112"/>
+                        <Label Content="建立日期起迄:" HorizontalAlignment="Left" Margin="22,262,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="119" FontWeight="Bold"/>
+                        <Label Content="公司:" HorizontalAlignment="Left" Margin="31,74,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <Label Content="聯繫人:" HorizontalAlignment="Left" Margin="31,116,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <Label Content="建立者:" HorizontalAlignment="Left" Margin="31,161,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <TextBox x:Name="tb_company5" HorizontalAlignment="Left" Height="23" Margin="39,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+                        <TextBox x:Name="tb_name5" HorizontalAlignment="Left" Height="23" Margin="39,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+                        <TextBox x:Name="tb_user5" HorizontalAlignment="Left" Height="23" Margin="39,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
+                        <Label Content="-報價記錄查詢-" HorizontalAlignment="Left" Margin="444.6,1,0,0" VerticalAlignment="Top" Width="154" FontSize="20" FontWeight="Bold" Grid.Column="3" Foreground="#FF212829"/>
+                    </Grid>
+                </TabItem>
+
+            </TabControl>
+            <Label Content="狀態:" HorizontalAlignment="Left" Margin="663,15,0,0" VerticalAlignment="Top" FontSize="16" Height="30" Width="46"/>
+            <Label x:Name="lb_status" Content="離線" HorizontalAlignment="Left" Margin="711,14,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFE60D0D" Height="33" Width="65"/>
+            <Label x:Name="lb_search" Content="" HorizontalAlignment="Left" Margin="491,49,0,93" Width="121"/>
+            <Image HorizontalAlignment="Left" Height="42" Margin="179.6,10,0,0" VerticalAlignment="Top" Width="50" Grid.Column="1" Source="trim.jpg"/>
+            <Label Content="椰城客戶資料維護系統  v2.0" Grid.Column="1" HorizontalAlignment="Left" Margin="224.6,17,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="258"/>
+
+
+
+
+
+        </Grid>
+    </Viewbox>
+</Window>

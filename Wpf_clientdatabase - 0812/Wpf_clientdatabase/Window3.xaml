@@ -1,0 +1,112 @@
+﻿<Window x:Class="Wpf_clientdatabase.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_clientdatabase"
+        mc:Ignorable="d"
+        Title="拜訪紀錄" Height="468.8" Width="800" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Margin="-2,0,-0.8,-1.4" Stroke="Black" Fill="#FFBBF2FA" Grid.ColumnSpan="2"/>
+        <Label Content="客戶名稱:" HorizontalAlignment="Left" Margin="13,78,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="公司名稱:" HorizontalAlignment="Left" Margin="13,38,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="tb_company" HorizontalAlignment="Left" Height="23" Margin="98,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="tb_name" HorizontalAlignment="Left" Height="23" Margin="98,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" FontSize="16" IsEnabled="False"/>
+        <Label Content="拜訪種類:" HorizontalAlignment="Left" Margin="13,119,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <ComboBox Name="cb_category" HorizontalAlignment="Left" Margin="97,122,0,0" VerticalAlignment="Top" Width="107" FontSize="16" SelectionChanged="cb_category_SelectionChanged">
+            <ComboBoxItem Content="產品介紹"/>
+            <ComboBoxItem Content="需求了解"/>
+            <ComboBoxItem Content="現場測試"/>
+            <ComboBoxItem Content="追蹤討論"/>
+            <ComboBoxItem Content="交貨"/>
+            <ComboBoxItem Content="裝機調整"/>
+            <ComboBoxItem Content="教育訓練"/>
+            <ComboBoxItem Content="問題排除"/>
+        </ComboBox>
+        <Label Content="拜訪時間:" HorizontalAlignment="Left" Margin="13,157,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <ComboBox x:Name="cb_1" HorizontalAlignment="Left" Margin="35,195,0,0" VerticalAlignment="Top" Width="60" FontSize="16" SelectionChanged="cb_1_SelectionChanged">
+            <ComboBoxItem Content="上午"/>
+            <ComboBoxItem Content="下午"/>
+        </ComboBox>
+        <ComboBox x:Name="cb_2" HorizontalAlignment="Left" Margin="102,195,0,0" VerticalAlignment="Top" Width="95" FontSize="16" SelectionChanged="cb_2_SelectionChanged">
+            <ComboBoxItem Content="0900"/>
+            <ComboBoxItem Content="0930"/>
+            <ComboBoxItem Content="1000"/>
+            <ComboBoxItem Content="1030"/>
+            <ComboBoxItem Content="1100"/>
+            <ComboBoxItem Content="1130"/>
+            <ComboBoxItem Content="1200"/>
+            <ComboBoxItem Content="1230"/>
+            <ComboBoxItem Content="1300"/>
+            <ComboBoxItem Content="1330"/>
+            <ComboBoxItem Content="1400"/>
+            <ComboBoxItem Content="1430"/>
+            <ComboBoxItem Content="1500"/>
+            <ComboBoxItem Content="1530"/>
+            <ComboBoxItem Content="1600"/>
+            <ComboBoxItem Content="1630"/>
+            <ComboBoxItem Content="1700"/>
+            <ComboBoxItem Content="1730"/>
+
+        </ComboBox>
+        <ComboBox x:Name="cb_3" HorizontalAlignment="Left" Margin="37,262,0,0" VerticalAlignment="Top" Width="60" FontSize="16" SelectionChanged="cb_3_SelectionChanged">
+            <ComboBoxItem Content="上午"/>
+            <ComboBoxItem Content="下午"/>
+        </ComboBox>
+        <ComboBox x:Name="cb_4" HorizontalAlignment="Left" Margin="104,262,0,0" VerticalAlignment="Top" Width="95" FontSize="16" SelectionChanged="cb_4_SelectionChanged">
+            <ComboBoxItem Content="0900"/>
+            <ComboBoxItem Content="0930"/>
+            <ComboBoxItem Content="1000"/>
+            <ComboBoxItem Content="1030"/>
+            <ComboBoxItem Content="1100"/>
+            <ComboBoxItem Content="1130"/>
+            <ComboBoxItem Content="1200"/>
+            <ComboBoxItem Content="1230"/>
+            <ComboBoxItem Content="1300"/>
+            <ComboBoxItem Content="1330"/>
+            <ComboBoxItem Content="1400"/>
+            <ComboBoxItem Content="1430"/>
+            <ComboBoxItem Content="1500"/>
+            <ComboBoxItem Content="1530"/>
+            <ComboBoxItem Content="1600"/>
+            <ComboBoxItem Content="1630"/>
+            <ComboBoxItem Content="1700"/>
+            <ComboBoxItem Content="1730"/>
+        </ComboBox>
+        <DataGrid x:Name="dg_visit" HorizontalAlignment="Left" Height="250" Margin="236,43,0,0" VerticalAlignment="Top" Width="528" FontSize="16" SelectionChanged="dg_visit_SelectionChanged" Grid.ColumnSpan="2"/>
+        <Label Content="~" HorizontalAlignment="Left" Margin="100,219,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.04"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="b_edit" Content="編輯儲存" HorizontalAlignment="Left" Margin="423,385,0,0" VerticalAlignment="Top" Width="80" Height="40" FontSize="18" FontWeight="Bold" Click="b_edit_Click" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                    <GradientStop Color="#FF37B3E6"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="b_new" Content="新增確認" HorizontalAlignment="Left" Margin="527,384,0,0" VerticalAlignment="Top" Width="89" Height="40" FontSize="18" FontWeight="Bold" Click="b_new_Click" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFDFDFD" Offset="0.976"/>
+                    <GradientStop Color="#FF37B3E6"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="內容:" HorizontalAlignment="Left" Margin="13,295,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="tb_content" HorizontalAlignment="Left" Height="100" Margin="34,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontSize="16"/>
+        <DataGrid x:Name="dg_all" HorizontalAlignment="Left" Height="117" Margin="444,236,0,0" VerticalAlignment="Top" Width="264" Visibility="Hidden" Grid.ColumnSpan="2"/>
+        <Label x:Name="lb_1" Content="查無資料!" HorizontalAlignment="Left" Margin="444,147,0,0" VerticalAlignment="Top" FontSize="20"/>
+    </Grid>
+</Window>
